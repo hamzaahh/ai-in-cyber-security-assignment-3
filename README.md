@@ -50,25 +50,6 @@ Learning curves: `results/accuracy_curve.png` and `results/loss_curve.png`.
 ![Accuracy](results/accuracy_curve.png)
 ![Loss](results/loss_curve.png)
 
-## Project structure
-```
-lab3-cyber-neural-network/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── .gitignore
-├── data/
-│   └── simple_cyber_activity.csv        # 100 rows, 50 Normal / 50 Attack
-├── notebooks/
-│   └── Lab3_Neural_Network_Cyber_Activity.ipynb   # Colab-ready, with outputs
-├── src/
-│   ├── generate_dataset.py              # recreates the CSV
-│   └── lab3_neural_network.py           # Q2–Q5 as a script
-├── results/                             # graphs, metrics, summary, predictions
-└── docs/
-    └── lab_report.md                    # written answers for the lab file
-```
-
 ## How to run
 **Google Colab (easiest):** open `notebooks/Lab3_Neural_Network_Cyber_Activity.ipynb`, upload `data/simple_cyber_activity.csv` in the Files panel, then *Runtime → Run all*.
 
